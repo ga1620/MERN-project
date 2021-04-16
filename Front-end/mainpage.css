@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@500&family=Quicksand&family=Roboto:wght@500&display=swap');
+
+
+
+.headerdiv{
+ display: flex;
+ position: fixed;
+ z-index: 999;
+ top:0px;
+ flex-direction: row-reverse;
+ column-gap: 50px;
+ padding-right: 50px;
+ border-bottom: 2px solid #0083B0;
+ background: #00B4DB;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+ 
+}
+
+.headerheading{
+    font-family: 'Quicksand', sans-serif;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-left: 30px;
+    color:#FFffff;
+}
+
+.headerbutton{
+    margin: 15px;
+    border:1px solid #FFffff;
+    color:#FFffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 1px;
+    outline:#0083B0;
+    width:80px;
+    background:transparent;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.headerbutton:hover{
+    color:#FFffff;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    position: relative;
+    bottom: 3px;
+}
+
+
+.bottomnav{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+.bottomnavdiv{
+    width:400px;
+    height: 50px;
+    border-top:1px solid rgb(189, 189, 189);
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2px;
+    opacity: 9999;
+
+}
+
+.bottomnavbutton{
+    font-size: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    color:#FFffff;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+}
+
+.bottomnavbutton:hover{
+ transform: scale(1.2);
+}
+
+.postdiv{
+    width:600px;
+}
+
+.postdiv_profile
+{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.postdiv_profile>p{
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.postdiv_image{
+  width: 100%;
+  height: 60vh;
+  margin-top: 5px;
+}
+
+.postdiv_dis{
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+li{
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+.ccc>p{
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
+.ccc{
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.commentbutton{
+  color:#FFffff;
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  border: none;
+  border-radius: 2px;
+}
+
+.commentinput{
+  width:250px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#commentdiv{
+  width:100%;
+  height: 75px;
+  overflow: hidden;
+}
+
+.postContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  width:100vw;
+  height: 100vh;
+  background-color: rgba(0, 0,0, 0.5);
+  z-index: 10000;
+  display: none;
+}
+
+.postDiv{
+  background-color: #FFffff;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+
+.postForm>input{
+ margin-top: 20px;
+}
+
+.distext{
+  width:100%;
+  height: 50px;
+}
+
+.postbutton{
+  margin-left: 35%;
+  margin-top: 50px;
+  border:1px solid #FFffff;
+    color:#FFffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 1px;
+    outline:#0083B0;
+    width:80px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  
+}
+
+.hidediv{
+  width:400px;
+  height: 300px;
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  text-align: center;
+  color:white;
+  padding-top: 80px;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 550;
+}
+
+.postDiv,.friendDiv,.profilediv,.hidediv{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.friendheading{
+  background: -webkit-linear-gradient(#0083B0, #00B4DB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.friendDiv{
+  background-color: #FFffff;
+  height: 400px;
+  width: 350px;
+  padding-top: 40px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.profilediv{
+  background-color: #FFffff;
+  height: 400px;
+  width: 350px;
+  padding-top: 40px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.profileclose{
+  border:1px solid #FFffff;
+    color:#FFffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 1px;
+    outline:#0083B0;
+    width:80px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .headerdiv{
+        position:fixed;   
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        border-bottom: 1px solid #0083B0;
+        column-gap: unset;
+        padding-right: unset;
+       }
+    
+       .headerheading{
+        margin: 10px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .headerbutton{
+        margin: 10px;
+        border:1px solid #FFffff;
+        color:#FFffff;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        padding: 1px;
+        width:60px;
+    }
+
+    .ccc>p{
+      font-size: 15px;
+      width: 150px;
+      word-wrap: break-word;
+    }
+
+    .commentinput{
+      width:240px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    
+  }
